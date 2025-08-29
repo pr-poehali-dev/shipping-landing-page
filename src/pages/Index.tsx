@@ -78,12 +78,12 @@ const ByteTransitLanding = () => {
               </Button>
             </div>
             <div className="relative">
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-                <div className="flex items-center gap-4 mb-6">
-                  <Icon name="Truck" size={40} className="text-white" />
-                  <Icon name="Ship" size={40} className="text-white/80" />
-                  <Icon name="Plane" size={40} className="text-white/60" />
-                </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 overflow-hidden">
+                <img 
+                  src="/img/086ccb12-a388-4af0-9122-dc60bfca4c00.jpg" 
+                  alt="Логистический транспорт: контейнеровоз и автопоезд" 
+                  className="w-full h-48 object-cover rounded-lg mb-6 opacity-80"
+                />
                 <p className="text-white/90 text-lg">
                   Контейнеровоз + автопоезд = надёжная доставка
                 </p>
@@ -369,8 +369,12 @@ const ByteTransitLanding = () => {
             <div className="relative">
               <Card className="p-8">
                 <CardContent className="p-0 text-center">
-                  <div className="w-32 h-32 bg-bt-red/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <Icon name="User" size={60} className="text-bt-red" />
+                  <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 border-4 border-bt-red/20">
+                    <img 
+                      src="/img/5057b28a-9b55-49ff-b7ae-34591ed2203b.jpg" 
+                      alt="Светлана Мелентьева - руководитель офиса в Шэньчжэне" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h3 className="text-xl font-semibold mb-2">Светлана Мелентьева</h3>
                   <p className="text-gray-600 mb-4">Руководитель офиса в Шэньчжэне</p>
